@@ -75,14 +75,14 @@ $config['wallet']['password'] = 'changethisWALLETPW';
  *  Configure your way to send mails
  *   https://github.com/MPOS/php-mpos/wiki/Config-Setup#wiki-swiftmailer
  **/
-$config['swiftmailer']['type'] = 'sendmail';
+$config['swiftmailer']['type'] = 'smtp';
 $config['swiftmailer']['sendmail']['path'] = '/usr/sbin/sendmail';
 $config['swiftmailer']['sendmail']['options'] = '-bs';
-$config['swiftmailer']['smtp']['host'] = 'your.mail-relay.com';
+$config['swiftmailer']['smtp']['host'] = 'changethisSMTPHOST';
 $config['swiftmailer']['smtp']['port'] = '587';
 $config['swiftmailer']['smtp']['encryption'] = 'tls';
-$config['swiftmailer']['smtp']['username'] = '';
-$config['swiftmailer']['smtp']['password'] = '';
+$config['swiftmailer']['smtp']['username'] = 'changethisSMTPUSER';
+$config['swiftmailer']['smtp']['password'] = 'changethisSMTPPASSWORD';
 $config['swiftmailer']['smtp']['throttle'] = 100;
 
 /**
