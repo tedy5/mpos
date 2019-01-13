@@ -49,7 +49,7 @@ $config['getbalancewithunconfirmed'] = true;
  *  MySQL database configuration
  *   https://github.com/MPOS/php-mpos/wiki/Config-Setup#wiki-database-configuration
  **/
-$config['db']['host'] = 'localhost';
+$config['db']['host'] = 'changethisDBHOST';
 $config['db']['user'] = 'root';
 $config['db']['pass'] = 'changethisDBPASS';
 $config['db']['port'] = 3306;
